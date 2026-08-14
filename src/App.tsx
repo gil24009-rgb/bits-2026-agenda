@@ -106,7 +106,7 @@ export default function App() {
       className="min-h-screen flex flex-col items-center justify-center py-8 relative overflow-hidden px-4"
     >
       <div className="w-full max-w-[600px] mx-auto flex flex-col px-8 sm:px-12 py-10 rounded-3xl relative bg-white/70 backdrop-blur-2xl shadow-[0_8px_40px_rgba(64,115,190,0.12),0_1.5px_6px_rgba(64,115,190,0.07)]">
-        <div className="mb-7">
+        <div className="mb-5">
           <p className="tracking-[0.14em] uppercase text-zinc-500 mb-2 text-[9px] font-semibold">
             BYU-Idaho Information Technology Summit
           </p>
@@ -146,12 +146,12 @@ export default function App() {
             >
               <span
                 style={{ fontFamily: "'Inria Sans', sans-serif" }}
-                className={`block text-[14px] sm:text-[15px] font-bold leading-tight whitespace-nowrap ${activeSession === i ? 'text-white' : 'text-[#1C58B1]/70'}`}
+                className={`block text-[14px] sm:text-[15px] font-bold leading-tight whitespace-nowrap ${activeSession === i ? 'text-white' : 'text-zinc-900'}`}
               >
                 {sess.date}
               </span>
               <span
-                className={`block text-[10px] sm:text-[11px] mt-1 whitespace-nowrap tracking-tight ${activeSession === i ? 'text-white/80' : 'text-[#1C58B1]/60 font-medium'}`}
+                className={`block text-[10px] sm:text-[11px] mt-1 whitespace-nowrap tracking-tight ${activeSession === i ? 'text-white/80' : 'text-zinc-700 font-medium'}`}
               >
                 {sess.dayShort} · {sess.label}
               </span>
